@@ -8,6 +8,7 @@
 html{
     /* background-color: #ffeee6; */
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 
@@ -358,4 +359,5 @@ html{
         color: #b3a1b9;
         font-size: 15px;
     }
+
 }
