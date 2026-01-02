@@ -37,7 +37,7 @@
     <!-- END OF HEADER -->
 
     <section class="home-pile1">
-        <div class="online-donation-popup-background" id="online-donation-popup" style="display: none;"></div>
+       <div class="online-donation-popup-background" id="online-donation-popup" style="display: none;"></div>
         <div class="online-donation-popup" id="online-donation-popup" style="display: none;">
             <div class="online-donation-popup-form">
                 <i class="fa-solid fa-xmark" onclick="onlineDonation(0)"></i>
@@ -47,10 +47,13 @@
                     <input type="number" name="amount"><br>
                     <label for="remarks">Remarks</label><br>
                     <input type="text" name="remarks"><br>
-                    <input type="submit" value="Submit" onclick="window.alert('Thank you! Your form has been submitted successfully. A confirmation message will be sent once validated.'); onlineDonation(0);" >
+                    <input type="submit" value="Submit" onclick="window.alert('Thank you! A confirmation message will be sent once validated.'); onlineDonation(0);" >
                 </form>
             </div>
         </div>
+        <div class="map-popup-background" id="map-popup" style="display: none;"></div>
+        <div class="map-popup" id="map-popup" style="display: none;"><i class="fa-solid fa-xmark" onclick="mapFunction(0)"></i><img src="path/css-file/media/image-video/donation/location.jpg" alt=""></div>
+
 
         <div class="donation-option">
             <div class="donation-option-query">
@@ -189,4 +192,5 @@
         </section>
     </footer>
 </body>
+
 </html>
