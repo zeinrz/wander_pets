@@ -22,7 +22,7 @@ body{
     filter: opacity(40%);
     transform: rotate(175deg);
     transform: translateY(250dvh);
-    left: -10px;
+    left: 0px;
     height: 320px;
     width: auto;
 }
@@ -801,4 +801,5 @@ body{
     }
 
 }
+
 
