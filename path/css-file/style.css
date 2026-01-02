@@ -12,7 +12,7 @@ body{
     position: absolute;
     filter: opacity(40%);
     transform: rotate(45deg);
-    transform: translateY(100dvh);
+    transform: translateY(120dvw);
     right: -10px;
     height: 350px;
     width: auto;
@@ -799,4 +799,5 @@ body{
             }
         }
     }
+
 }
