@@ -10,7 +10,7 @@ body{
     filter: opacity(40%);
     transform: rotate(175deg);
     transform: translateY(60dvh);
-    left: 25%;
+    left: 0dvw;
     height: 320px;
     width: auto;
 }
@@ -454,4 +454,5 @@ body{
             }
         }
     }
+
 }
