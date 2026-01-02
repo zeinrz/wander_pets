@@ -13,7 +13,7 @@ body{
     filter: opacity(40%);
     transform: rotate(45deg);
     transform: translateY(120dvw);
-    right: 0px;
+    right: 5px;
     height: 350px;
     width: auto;
 }
@@ -801,5 +801,6 @@ body{
     }
 
 }
+
 
 
