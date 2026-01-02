@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/css-file/adoption.css">
+    <link rel="stylesheet" href="path/css-file/header.css">
+    <link rel="stylesheet" href="path/css-file/media/icon/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="path/css-file/media/icon/fontawesome-free-6.5.1-web/css/fontawesome.min.css">
+    <link rel="icon" href="path/css-file/media/icon/logo.png">
+    <title>Wander Pets!</title>
+</head>
+<body>
+    <header>
+        <div class="background-logo">
+        </div>
+        <section class="header-bar">
+            <div class="horizontal-logo">
+                <img src="path/css-file/media/icon/horizontal-icon.png" alt="" onclick="window.location.href = 'index.html'">
+            </div>
+            <nav class="menu-bar">
+                    <span class="bars">
+                        <i class="fa-solid fa-bars" onclick="barFunction()"></i>
+                    </span>
+                    <ul class="menu" id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="adoption.html">Adoption</a></li>
+                        <li><a href="donation.html">Donation</a></li>
+                    </ul>
+            </nav>
+        <script src="path/header.js"></script>
+        </section>
+
+    </header>
+    <!-- END OF HEADER -->
+
+    <section class="home-pile1">
+        <div class="adoption-description">
+            <div><img src="path/css-file/media/image-video/pet-adoption/volunteers.jpg" alt=""></div>
+            <div class="adoption-procedure">
+                <h2>Adopt a rescued cat or dog</h2>
+                <p>All of our adoptable cats and dogs have been neutered, and vaccinated. 
+                    Since they had a difficult life before being rescued, we need to ensure that 
+                    they are adopted by loving humans and aren't exposed to further abuse or neglect. 
+                    For their safety, here’s how to apply:</p>
+                <div>
+                    <div class="adoption-step">
+                        <i class="fa-solid fa-file"></i><p>Submit the adoption application form</p>
+                    </div>
+                    <div class="adoption-step">
+                        <i class="fa-solid fa-paw"></i><p>Meet our rescued animals in person</p>
+                    </div>
+                    <div class="adoption-step">
+                        <i class="fa-solid fa-heart"></i><p>Visit your chosen pet to confirm your choice</p>
+                    </div>
+                    <div class="adoption-step">
+                        <i class="fa-solid fa-user-nurse"></i></i><p>Wait for vet clearance and schedule pick up</p>
+                    </div>
+                    <div class="adoption-step">
+                        <i class="fa-solid fa-money-bill"></i><p>Pay the adoption fee for the vaccination of pets</p>
+                    </div>
+                    <div class="adoption-step">
+                        <i class="fa-solid fa-house"></i><p>Take your pet home!</p>
+                    </div>
+                    <a href="#selection"><button>Adopt now</button></a>
+                </div>
+            </div>
+        </div>
+        <section class="selection" id="selection">
+            <section class="selection-button">
+                <button style="background-color: #e4a769;" onclick="petFilter('all')" id="default">All</button>
+                <button onclick="petFilter('dog')" id="dog-button">Dogs</button>
+                <button onclick="petFilter('cat')" id="cat-button">Cats</button>
+            </section>
+            <div class="selection-list">
+                <div class="pet" id="cat"><img src="path/css-file/media/image-video/pet-adoption/100.jpg" alt="" onclick="selectedPet(100)" id="cat"><h3 id="cat" onclick="selectedPet(100)">Mia</h3></div>
+                <div class="pet" id="cat"><img src="path/css-file/media/image-video/pet-adoption/101.jpg" alt="" onclick="selectedPet(101)" id="cat"><h3 id="cat" onclick="selectedPet(101)">Sunny</h3></div>
+                <div class="pet" id="dog"><img src="path/css-file/media/image-video/pet-adoption/102.jpg" alt="" onclick="selectedPet(102)" id="dog"><h3 id="dog" onclick="selectedPet(102)">Teddy</h3></div>
+                <div class="pet" id="cat"><img src="path/css-file/media/image-video/pet-adoption/103.jpg" alt="" onclick="selectedPet(103)" id="cat"><h3 id="cat" onclick="selectedPet(103)">Mingming</h3></div>
+                <div class="pet" id="cat"><img src="path/css-file/media/image-video/pet-adoption/104.jpg" alt="" onclick="selectedPet(104)" id="cat"><h3 id="cat" onclick="selectedPet(104)">Mochi</h3></div>
+                <div class="pet" id="dog"><img src="path/css-file/media/image-video/pet-adoption/105.jpg" alt="" onclick="selectedPet(105)" id="dog"><h3 id="dog" onclick="selectedPet(105)">Bailey</h3></div>
+                <div class="pet" id="dog"><img src="path/css-file/media/image-video/pet-adoption/106.jpg" alt="" onclick="selectedPet(106)" id="dog"><h3 id="dog" onclick="selectedPet(106)">Shadow</h3></div>
+                <div class="pet" id="dog"><img src="path/css-file/media/image-video/pet-adoption/107.jpg" alt="" onclick="selectedPet(107)" id="dog"><h3 id="dog" onclick="selectedPet(107)">Peanut</h3></div>
+                <div class="pet" id="dog"><img src="path/css-file/media/image-video/pet-adoption/108.jpg" alt="" onclick="selectedPet(108)" id="dog"><h3 id="dog" onclick="selectedPet(108)">Kia</h3></div>
+                <div class="pet" id="cat"><img src="path/css-file/media/image-video/pet-adoption/109.jpg" alt="" onclick="selectedPet(109)" id="cat"><h3 id="cat" onclick="selectedPet(109)">Sunny</h3></div>
+                <div class="pet" id="cat"><img src="path/css-file/media/image-video/pet-adoption/110.jpg" alt="" onclick="selectedPet(110)" id="cat"><h3 id="cat" onclick="selectedPet(110)">Jasmine</h3></div>
+                <div class="pet" id="dog"><img src="path/css-file/media/image-video/pet-adoption/111.jpg" alt="" onclick="selectedPet(111)" id="dog"><h3 id="dog" onclick="selectedPet(111)">Dexter</h3></div>
+                <div class="pet" id="dog"><img src="path/css-file/media/image-video/pet-adoption/112.jpg" alt="" onclick="selectedPet(112)" id="dog"><h3 id="dog" onclick="selectedPet(112)">Bella</h3></div>
+                <div class="pet" id="cat"><img src="path/css-file/media/image-video/pet-adoption/113.jpg" alt="" onclick="selectedPet(113)" id="cat"><h3 id="cat" onclick="selectedPet(113)">King George</h3></div>
+                <div class="pet" id="cat"><img src="path/css-file/media/image-video/pet-adoption/114.jpg" alt="" onclick="selectedPet(114)" id="cat"><h3 id="cat" onclick="selectedPet(114)">Willow</h3></div>
+                <div class="pet" id="dog"><img src="path/css-file/media/image-video/pet-adoption/115.jpg" alt="" onclick="selectedPet(115)" id="dog"><h3 id="dog" onclick="selectedPet(115)">Choco</h3></div>
+                <div class="pet" id="dog"><img src="path/css-file/media/image-video/pet-adoption/116.jpg" alt="" onclick="selectedPet(116)" id="dog"><h3 id="dog" onclick="selectedPet(116)">Kathy</h3></div>
+                <div class="pet" id="dog"><img src="path/css-file/media/image-video/pet-adoption/117.jpg" alt="" onclick="selectedPet(117)" id="dog"><h3 id="dog" onclick="selectedPet(117)">Lucky</h3></div>
+                <div class="pet" id="cat"><img src="path/css-file/media/image-video/pet-adoption/118.jpg" alt="" onclick="selectedPet(118)" id="cat"><h3 id="cat" onclick="selectedPet(118)">Athena</h3></div>
+                <div class="pet" id="cat"><img src="path/css-file/media/image-video/pet-adoption/119.jpg" alt="" onclick="selectedPet(119)" id="cat"><h3 id="cat" onclick="selectedPet(119)">Callie</h3></div>
+
+    
+            </div>
+        </section>
+
+    </section>
+    <script src="path/adoption.js"></script>
+
+    <footer>
+        <h4>CONTACT INFORMATION</h4>
+        <div class="footer-logo">
+            <img src="path/css-file/media/icon/horizontal-icon.png" alt="" onclick="window.location.href = 'index.html'">
+        </div>
+        <section class="footer-contact-info">
+            <div class="footer-contact">
+                <i class="fa-solid fa-location-dot"></i><p>Loyola Heights Quezon City, Philippines 1108</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fa-solid fa-phone"></i><p>(02) 926-1522</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fa-solid fa-envelope"></i><p>wander.pets@gmail.com</p>
+            </div>
+        </section>
+        <section class="footer-socials">
+            <div>
+                <span class="footer-icon">
+                    <a href="https://www.facebook.com/pawsphilippines/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/pawsphilippines/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/PAWSPhilippines" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.tiktok.com/@paws_ph" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@PAWSPhilippines1954" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </span>
+            </div>
+            <div class="copyright">
+                <i><p>&copy; 2025 Wander Pets - For Every Animal. All Rights Reserved. </p></i>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

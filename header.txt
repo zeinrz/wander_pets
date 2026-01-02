@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/css-file/adoption-form.css">
+    <link rel="stylesheet" href="path/css-file/header.css">
+    <link rel="stylesheet" href="path/css-file/media/icon/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="path/css-file/media/icon/fontawesome-free-6.5.1-web/css/fontawesome.min.css">
+    <link rel="icon" href="path/media/icon/logo.png">
+    <title>Wander Pets!</title>
+</head>
+<body>
+    <header>
+        <div class="background-logo">
+        </div>
+        <section class="header-bar">
+            <div class="horizontal-logo">
+                <img src="path/css-file/media/icon/horizontal-icon.png" alt="" >
+            </div>
+            <nav class="menu-bar">
+                    <span class="bars">
+                        <i class="fa-solid fa-bars" onclick="barFunction()"></i>
+                    </span>
+                    <ul class="menu" id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="adoption.html">Adoption</a></li>
+                        <li><a href="donation.html">Donation</a></li>
+                    </ul>
+            </nav>
+        <script src="path/header.js"></script>
+        </section>
+
+    </header>
+    <!-- END OF HEADER -->
+
+    <section class="home-pile1">
+
+    </section>
+
+
+
+
+
+
+    <footer>
+        <h4>CONTACT INFORMATION</h4>
+        <div class="footer-logo">
+            <img src="path/css-file/media/icon/horizontal-icon.png" alt="">
+        </div>
+        <section class="footer-contact-info">
+            <div class="footer-contact">
+                <i class="fa-solid fa-location-dot"></i><p>Loyola Heights Quezon City, Philippines 1108</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fa-solid fa-phone"></i><p>(02) 926-1522</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fa-solid fa-envelope"></i><p>wander.pets@gmail.com</p>
+            </div>
+        </section>
+        <section class="footer-socials">
+            <div>
+                <span class="footer-icon">
+                    <a href="https://www.facebook.com/profile.php?id=61554158403811" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61554158403811" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61554158403811" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61554158403811" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61554158403811" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </span>
+            </div>
+            <div class="copyright">
+                <i><p>&copy; 2025 Wander Pets - For Every Animal. All Rights Reserved. </p></i>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+.design-pawprintwalk{
+    position: absolute;
+    height: 100px;
+    top: 150%;
+}
+.design-pawprint{
+    position: absolute;
+    height: 100px;
+}
+.design-doghouse{
+    position: absolute;
+    height: 100px;
+}
+.design-cat{
+    position: absolute;
+    height: 100px;
+}
+.design-bone{
+    position: absolute;
+    height: 100px;
+}
+
+        <img src="path/css-file/media/image-video/design/Bone.png" class="design-bone" alt="">
+        <img src="path/css-file/media/image-video/design/cat.png" class="design-cat" alt="">
+        <img src="path/css-file/media/image-video/design/doghouse.png" class="design-doghouse" alt="">
+        <img src="path/css-file/media/image-video/design/Pawprint.png"  class="design-pawprint" alt="">
+        <img src="path/css-file/media/image-video/design/Pawprintwalk.png" class="design-pawprintwalk"  alt="">
+
+
+
+
+@media screen and (max-width: 767.98px){
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+
+}
+
+@media screen and (min-width: 992px){
+    
+}

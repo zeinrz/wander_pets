@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/css-file/application-form.css">
+    <link rel="stylesheet" href="path/css-file/header.css">
+    <link rel="stylesheet" href="path/css-file/media/icon/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="path/css-file/media/icon/fontawesome-free-6.5.1-web/css/fontawesome.min.css">
+    <link rel="icon" href="path/css-file/media/icon/logo.png">
+    <title>Wander Pets!</title>
+</head>
+<body>
+    <header>
+        <div class="background-logo">
+        </div>
+        <section class="header-bar">
+            <div class="horizontal-logo">
+                <img src="path/css-file/media/icon/horizontal-icon.png" alt="" onclick="window.location.href = 'index.html'">
+            </div>
+            <nav class="menu-bar">
+                    <span class="bars">
+                        <i class="fa-solid fa-bars" onclick="barFunction()"></i>
+                    </span>
+                    <ul class="menu" id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="adoption.html">Adoption</a></li>
+                        <li><a href="donation.html">Donation</a></li>
+                    </ul>
+            </nav>
+        <script src="path/header.js"></script>
+        </section>
+
+    </header>
+    <!-- END OF HEADER -->
+
+    <section class="home-pile1">
+        <div class="application-form">
+            <form action="index.html">
+                <section class="personal-info">
+                    <h3 style="text-align: center;">Application Form</h3>
+                    <!-- 1 -->
+
+                    <label for="name">Name</label> <br>
+                    <div class="input-text">
+                        <input class="name-first" type="text" placeholder="First">
+                        <input class="name-last" type="text" placeholder="Last">
+                    </div> 
+
+                    <!-- 2 -->
+
+                    <label for="adress">Address</label> <br>
+                    <div class="input-text">      
+                        <input type="text" class="address">
+                    </div>
+
+                    <!-- 3 -->
+
+                    <div class="phoneNemail">
+                        <div class="personal-info-q4">
+                            <label for="phone">Phone</label>
+                            <div class="input-text">
+                                <input type="Number" style="margin-right: 30px;">
+                            </div>
+                        </div>
+
+                    <!-- 4 -->
+
+                        <div class="personal-info-q4">
+                            <label for="email">Email</label>
+                            <div class="input-text">
+                                <input type="email">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+
+                    <div class="birthNstatus">
+                        <div class="personal-info-q5">
+                            <label for="birthday">birthday</label>
+                            <div class="input-text">
+                                <input type="date">
+                            </div>
+                        </div>
+                        
+                    <!-- 6 -->
+                    
+                        <div class="personal-info-q5">
+                            <label for="status">Status</label>
+                            <div class="input-option">
+                                <div class="input-radio" class="status-option"><input type="radio" name="status" id="single"> <label for="single">Single</label></div>
+                                <div class="input-radio" class="status-option"><input type="radio" name="status" id="married"> <label for="married">Married</label></div>
+                                <div class="input-radio" class="status-option"><input type="radio" name="status" id="others"> <label for="others">Others</label></div>
+                                <div class="input-dropdown">
+                                    <select name="" id="">
+                                        <option value="">Single</option>
+                                        <option value="">Married</option>
+                                        <option value="" selected>Others</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7 -->
+
+                    <div class="input-file">
+                        <label for="formal">Upload your 2x2 picture here: </label><br>
+                        <input type="file">
+                    </div>
+
+                    <!-- 8 -->
+
+                    <div class="input-file">
+                        <label for="resume">Upload your resume here: </label><br>
+                        <input type="file">
+                    </div>
+                </section>
+                <section class="additional-question">
+                    <div class="furparent-header">
+                        <h3>Additional Questions</h3>
+                        <i>In an effort to help the process go smoothly, please be as detailed as 
+                            possible with your responses to the questions below.</i><br><br>
+                    </div>
+
+                    <!-- 1 -->
+
+                    <label for="furparent-q1" class="que">Do you have any physical, or medical disabilities, or allergies?</label>
+                    <div class="input-text">
+                        <input type="text" style="width: 98%;">
+                    </div>
+
+                    <!-- 2 -->
+
+                    <label for="furparent-q2" class="que">Please indicate skills that may not be directly related to animals which we may be able to help Wander Pets in the future?</label>
+                    <div class="input-text">
+                        <input type="text" style="width: 98%;">
+                    </div>
+
+                    <!-- 3 -->
+
+                    <label for="furparent-q3" class="que">Why do you want to be a Volunteer?</label>
+                    <div class="input-text">
+                        <textarea name="3" id="8" rows="4" style="width: 98%;"></textarea>
+                    </div>
+                </section>
+                <input type="submit" value="Submit" onclick="window.alert('Thank you! Your form has been submitted successfully. A confirmation message will be sent to your Gmail once validated.');" >
+            </form>
+            
+        </div>
+    </section>
+
+
+
+    <script src="path/applicaiton.js"></script>
+    <footer>
+        <h4>CONTACT INFORMATION</h4>
+        <div class="footer-logo">
+            <img src="path/css-file/media/icon/horizontal-icon.png" alt="" onclick="window.location.href = 'index.html'">
+        </div>
+        <section class="footer-contact-info">
+            <div class="footer-contact">
+                <i class="fa-solid fa-location-dot"></i><p>Loyola Heights Quezon City, Philippines 1108</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fa-solid fa-phone"></i><p>(02) 926-1522</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fa-solid fa-envelope"></i><p>wander.pets@gmail.com</p>
+            </div>
+        </section>
+        <section class="footer-socials">
+            <div>
+                <span class="footer-icon">
+                    <a href="https://www.facebook.com/pawsphilippines/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/pawsphilippines/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/PAWSPhilippines" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.tiktok.com/@paws_ph" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@PAWSPhilippines1954" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </span>
+            </div>
+            <div class="copyright">
+                <i><p>&copy; 2025 Wander Pets - For Every Animal. All Rights Reserved. </p></i>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

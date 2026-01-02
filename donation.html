@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/css-file/donation.css">
+    <link rel="stylesheet" href="path/css-file/header.css">
+    <link rel="stylesheet" href="path/css-file/media/icon/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="path/css-file/media/icon/fontawesome-free-6.5.1-web/css/fontawesome.min.css">
+    <link rel="icon" href="path/css-file/media/icon/logo.png">
+    <title>Wander Pets!</title>
+</head>
+<body>
+    <header>
+        <div class="background-logo">
+        </div>
+        <section class="header-bar">
+            <div class="horizontal-logo">
+                <img src="path/css-file/media/icon/horizontal-icon.png" alt="" onclick="window.location.href = 'index.html'">
+            </div>
+            <nav class="menu-bar">
+                    <span class="bars">
+                        <i class="fa-solid fa-bars" onclick="barFunction()"></i>
+                    </span>
+                    <ul class="menu" id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="adoption.html">Adoption</a></li>
+                        <li><a href="donation.html">Donation</a></li>
+                    </ul>
+            </nav>
+            <script src="path/header.js"></script>
+        </section>
+
+    </header>
+        <img src="path/css-file/media/image-video/design/Pawprintwalk.png" class="design-pawprintwalk"  alt="">
+    <!-- END OF HEADER -->
+
+    <section class="home-pile1">
+        <div class="online-donation-popup-background" id="online-donation-popup" style="display: none;"></div>
+        <div class="online-donation-popup" id="online-donation-popup" style="display: none;">
+            <div class="online-donation-popup-form">
+                <i class="fa-solid fa-xmark" onclick="onlineDonation(0)"></i>
+                <form action="">
+                    <h3>DONATION VIA PESOPAY</h3>
+                    <label for="amount">Amount</label><br>
+                    <input type="number" name="amount"><br>
+                    <label for="remarks">Remarks</label><br>
+                    <input type="text" name="remarks"><br>
+                    <input type="submit" value="Submit" onclick="window.alert('Thank you! Your form has been submitted successfully. A confirmation message will be sent once validated.'); onlineDonation(0);" >
+                </form>
+            </div>
+        </div>
+
+        <div class="donation-option">
+            <div class="donation-option-query">
+                <div class="donation-option-physical">
+                    <h3>PAWS Animal Rehabilitation Center (PARC)</h3>
+                    <p>Aurora Boulevard cor. Katipunan Avenue, Loyola Heights Quezon City, Philippines 1108</p><br>
+                    <p>Click map to enlarge or <a href="">view Google map here.</a></p><br>
+                    <img src="path/css-file/media/image-video/donation/location.jpg" alt="">
+                    <button onclick="onlineDonation(1)">Donate Online</button>
+                    <div class="donation-option-online-form">
+                        
+                    </div>
+                </div>
+                <div class="donation-option-online">
+                    <div class="donation-option-online-header">
+                        <h4>HELP US HELP MORE ANIMALS</h4>
+                        <h2>PLEASE DONATE.</h2>
+                    </div>
+                    <div>
+                        <div  class="donation-option-online-step"><i class="fa-solid fa-mobile-screen"></i> <p>Log in to GCash and tap <span style="font-weight: bold;">pay QR.</span></p></div>
+                        <div  class="donation-option-online-step"><i class="fa-solid fa-qrcode"></i> <p>Scan our QR code.</p></div>
+                        <div  class="donation-option-online-step"><i class="fa-solid fa-money-bill"></i> <p> Input the total amount and tap Next.</p></div>
+                        <div  class="donation-option-online-step"><i class="fa-solid fa-hand-point-up"></i> <p>Review all details then tap on Pay.</p></div>
+                        <img src="path/css-file/media/image-video/donation/paws-qr.png" alt=""><br>
+                    </div>
+                </div>
+            </div>
+            <div class="donation-option-query">
+                <div class="donation-option-other">
+                    <img src="path/css-file/media/image-video/donation/donation-other.jpg" alt=""><br>
+                    <a href="#other-donation"><button>Give in different ways</button></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="donation-option-desktop">
+            <div class="donation-option-physical">
+                <h3>PAWS Animal Rehabilitation Center (PARC)</h3>
+                <p>Aurora Boulevard cor. Katipunan Avenue, Loyola Heights Quezon City, Philippines 1108</p><br>
+                <p>Click map to enlarge or <a href="">view Google map here.</a></p><br>
+                <img src="path/css-file/media/image-video/donation/location.jpg" alt="">
+                <button onclick="onlineDonation(1)">Donate Online</button>
+                <div class="donation-option-online-form">
+
+                </div>
+            </div>
+            <div class="donation-option-online">
+                <div class="donation-option-online-header">
+                    <h4>HELP US HELP MORE ANIMALS</h4>
+                    <h2>PLEASE DONATE.</h2>
+                </div>
+                <div>
+                    <div  class="donation-option-online-step"><i class="fa-solid fa-mobile-screen"></i> <p>Log in to GCash and tap <span style="font-weight: bold;">pay QR.</span></p></div>
+                    <div  class="donation-option-online-step"><i class="fa-solid fa-qrcode"></i> <p>Scan our QR code.</p></div>
+                    <div  class="donation-option-online-step"><i class="fa-solid fa-money-bill"></i> <p> Input the total amount and tap Next.</p></div>
+                    <div  class="donation-option-online-step"><i class="fa-solid fa-hand-point-up"></i> <p>Review all details then tap on Pay.</p></div>
+                    <img src="path/css-file/media/image-video/donation/paws-qr.png" alt=""><br>
+                </div>
+            </div>
+            <div class="donation-option-other">
+                <img src="path/css-file/media/image-video/donation/donation-other.jpg" alt=""><br>
+                <a href="#other-donation"><button>Give in different ways</button></a>
+            </div>
+        </div>
+        <div class="other-donation">
+            <img src="path/css-file/media/image-video/donation/dog.jpg" alt="">
+            <div class="other-donation-option" id="other-donation">
+                <div class="other-donation-animal">
+                    <h3>RESCUED ANIMALS NEED</h3>
+                    <ul>
+                        <li>Dog food</li>
+                        <li>Cat food</li>
+                        <li>Crates, carriers or cages</li>
+                        <li>Pee pads</li>
+                        <li>Scratching posts for the cats</li>
+                        <li>Chew toys for the dogs</li>
+                        <li>Vaccines, medicine and vitamins</li>
+                        <li>Dog and cat treats</li>
+                        <li>Leashes, harnesses and collars</li>
+                    </ul> 
+                </div>
+                <div class="other-donation-shelter">
+                    <div>
+                        <h3>SHELTER HOUSE NEEDS</h3>
+                        <ul>
+                            <li>Detergent powder and bleach</li>
+                            <li>Dishwashing paste or liquid</li>
+                            <li>Bath towels</li>
+                            <li>Garbage bags</li>
+                            <li>Foot rugs or door mats</li>
+                            <li>Clinic supplies</li>
+                            <li>Old newspapers</li>
+                            <li>Toilet paper</li>
+                            <li>Mops and brooms</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="path/donation.js"></script>
+    <footer>
+        <h4>CONTACT INFORMATION</h4>
+        <div class="footer-logo">
+            <img src="path/css-file/media/icon/horizontal-icon.png" alt="" onclick="window.location.href = 'index.html'">
+        </div>
+        <section class="footer-contact-info">
+            <div class="footer-contact">
+                <i class="fa-solid fa-location-dot"></i><p>Loyola Heights Quezon City, Philippines 1108</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fa-solid fa-phone"></i><p>(02) 926-1522</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fa-solid fa-envelope"></i><p>wander.pets@gmail.com</p>
+            </div>
+        </section>
+        <section class="footer-socials">
+            <div>
+                <span class="footer-icon">
+                    <a href="https://www.facebook.com/pawsphilippines/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/pawsphilippines/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/PAWSPhilippines" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.tiktok.com/@paws_ph" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@PAWSPhilippines1954" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </span>
+            </div>
+            <div class="copyright">
+                <i><p>&copy; 2025 Wander Pets - For Every Animal. All Rights Reserved. </p></i>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

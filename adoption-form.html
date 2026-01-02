@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/css-file/adoption-form.css">
+    <link rel="stylesheet" href="path/css-file/header.css">
+    <link rel="stylesheet" href="path/css-file/media/icon/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="path/css-file/media/icon/fontawesome-free-6.5.1-web/css/fontawesome.min.css">
+    <link rel="icon" href="path/css-file/media/icon/logo.png">
+    <title>Wander Pets!</title>
+</head>
+<body>
+    <header>
+        <div class="background-logo">
+        </div>
+        <section class="header-bar">
+            <div class="horizontal-logo">
+                <img src="path/css-file/media/icon/horizontal-icon.png" alt="" onclick="window.location.href = 'index.html'">
+            </div>
+            <nav class="menu-bar">
+                    <span class="bars">
+                        <i class="fa-solid fa-bars" onclick="barFunction()"></i>
+                    </span>
+                    <ul class="menu" id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="adoption.html">Adoption</a></li>
+                        <li><a href="donation.html">Donation</a></li>
+                    </ul>
+            </nav>
+        <script src="path/header.js"></script>
+        </section>
+
+    </header>
+    <!-- END OF HEADER -->
+
+    <section class="home-pile1">
+        <div class="pet-info">
+            <div class="pet-img">
+                <img id="pet-img" src="" alt="">
+            </div>
+            <div>
+                <section class="pet-details">
+                    <h3 id="animalName"></h3>
+                </section>
+                    <hr>
+                <section class="pet-details">
+                    <h4>Age: </h4> <p class="pet-details-targetDetails" id="animalAge"></p>
+                    <h4>Sex: </h4> <p class="pet-details-targetDetails" id="animalSex"></p>
+                    <h4>Breed: </h4> <p class="pet-details-targetDetails" id="animalBreed"></p>
+                </section>
+                    <hr>
+                <section class="pet-details">
+                    <p id="animalStory"></p>
+                </section>
+            </div>
+
+
+        </div>
+
+        <div class="application-form">
+            <form action="index.html">
+                <section class="personal-info">
+                    <h3 style="text-align: center;">Adoption Form</h3>
+                    <!-- 1 -->
+
+                    <label for="name">Name</label> <br>
+                    <div class="input-text">
+                        <input class="name-first" type="text" placeholder="First">
+                        <input class="name-last" type="text" placeholder="Last">
+                    </div> 
+
+                    <!-- 2 -->
+
+                    <label for="adress">Address</label> <br>
+                    <div class="input-text">      
+                    <input type="text" class="address">
+                    </div>
+
+                    <!-- 3 -->
+
+                    <div class="phoneNemail">
+                    <div class="personal-info-q4">
+                    <label for="phone">Phone</label>
+                    <div class="input-text">
+                        <input type="Number" style="margin-right: 30px;">
+                    </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="personal-info-q4">
+                    <label for="email">Email</label>
+                    <div class="input-text">
+                        <input type="email">
+                    </div>
+                    </div>
+                </div>
+
+                    <!-- 5 -->
+
+                    <div class="birthNstatus">
+                    <div class="personal-info-q5">
+                    <label for="birthday">Birthday</label>
+                    <div class="input-text">
+                        <input type="date">
+                    </div>
+                    </div>
+                        
+                    <!-- 6 -->
+                    
+                 <div class="personal-info-q5">
+                    <label for="status">Status</label>
+                    <div class="input-option">
+                        <div class="input-radio" class="status-option"><input type="radio" name="status" id="single"> <label for="single">Single</label></div>
+                        <div class="input-radio" class="status-option"><input type="radio" name="status" id="married"> <label for="married">Married</label></div>
+                        <div class="input-radio" class="status-option"><input type="radio" name="status" id="others"> <label for="others">Others</label></div>
+                        <div class="input-dropdown">
+                            <select name="" id="">
+                                <option value="">Single</option>
+                                <option value="">Married</option>
+                                <option value="" selected>Others</option>
+                            </select>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+
+                    
+                    <!-- 7 -->
+
+                    <div class="workNsocial">
+                    <div class="personal-info-q7">
+                    <label for="occupation">Occupation</label>
+                    <div class="input-text">
+                        <input type="text">
+                    </div>
+                    </div>
+
+                    <!-- 8 -->
+
+                    <div class="personal-info-q7">
+                    <label for="social-media">Social media</label>
+                    <div class="input-text">
+                        <input type="text" placeholder="FB/Twitter/IG">
+                    </div>
+                    </div>
+                    </div>
+
+                    <!-- 9 -->
+
+                    
+                    <label for="wanderpet">What prompted you to adopt from Wander Pets?</label>
+                    <div class="input-checklist input-checklist-q9">
+                        <div class="input-checklist-q9-pt">
+                            <div><input type="checkbox" name="q1" id="lalone1"> <label for="lalone1">Friends</label></div>
+                            <div><input type="checkbox" name="q1" id="cover1"> <label for="cover1">Website</label></div>
+                        </div>
+                        <div class="input-checklist-q9-pt">
+                            <div><input type="checkbox" name="q1" id="spo1"> <label for="spo1">Social media</label></div>
+                            <div><input type="checkbox" name="q1" id="cbelow1"> <label for="cbelow1">other</label></div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- 10 -->
+
+                        <label for="status">Have you adopted from Wander Pets before?</label>
+                    <div class="input-option">
+                        <div class="o_1"><input type="radio" name="q2" id="yes01"> <label for="yes01">Yes</label></div>
+                        <div class="o_1"><input type="radio" name="q2" id="no01"> <label for="no01">No</label></div>
+                    </div>
+
+
+                </section>
+                <section class="furparent">
+                    <div class="furparent-header">
+                        <h3>Furparent Questionnaire</h3>
+                        <i>In an effort to help the process go smoothly, please be as detailed as 
+                            possible with your responses to the questions below.</i><br>
+                    </div>
+
+                    <!-- 1 -->
+
+                    <label for="furparent-q1" class="que">What are you looking to adopt?</label>
+                    <div class="input-option" style="display: flex;">
+                        <div class="input-option-q1-pt">
+                            <div class="input-radio"><input type="radio" name="1" id="cat"> <label for="cat">Cat</label></div>
+                            <div class="input-radio"><input type="radio" name="1" id="dog"> <label for="dog">Dog</label></div>
+                        </div>
+                        <div class="input-option-q1-pt">
+                            <div class="input-radio"><input type="radio" name="1" id="both"> <label for="both">Both</label></div>
+                            <div class="input-radio"><input type="radio" name="1" id="ndecided"> <label for="ndecided">Not decided</label></div>
+                        </div>
+                        <div class="input-dropdown">
+                            <select name="" id="">
+                                <option value="">Cat</option>
+                                <option value="">Dog</option>
+                                <option value="">Both</option>
+                                <option value="" selected>Not decided</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+
+                    <label for="furparent-q2" class="que">Are you applying to adopt a specific shelter animal?</label>
+                    <div class="input-option">
+                        <div class="o_1"><input type="radio" name="furparent-q2" id="yes"> <label for="yes">Yes</label></div>
+                        <div class="o_1"><input type="radio" name="furparent-q2" id="no"> <label for="no">No</label></div>
+                    </div>
+
+                    <!-- 3 -->
+
+                    <label for="furparent-q3" class="que">Describe your ideal pet, including its sex, age, appearance, temperament, etc.</label>
+                    <div class="input-text">
+                        <textarea name="furparent-q3" id="furparent-q3" rows="4" style="width: 98%;"></textarea>
+                    </div>
+
+                    <!-- 4 -->
+                    <label for="furparent-q4" class="que" style="margin-right: 25px;">What type of building do you live in?</label>    
+                    <div class="input-option" style="display: flex;">
+                        <div class="input-option-q4-pt">
+                            <div class="input-radio"><input type="radio" name="4" id="house"> <label for="house">House</label></div>
+                            <div class="input-radio"><input type="radio" name="4" id="apartment"> <label for="apartment">Apartment</label></div>
+                        </div>
+                        <div class="input-option-q4-pt">
+                            <div class="input-radio"><input type="radio" name="4" id="condo"> <label for="condo">Condo</label></div>
+                            <div class="input-radio"><input type="radio" name="4" id="other"> <label for="other">Other</label></div>
+                        </div>
+                        <div class="input-dropdown">
+                            <select name="" id="">
+                                <option value="">House</option>
+                                <option value="">Apartment</option>
+                                <option value="">Condo</option>
+                                <option value="" selected>Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- 5 -->
+                    
+                    <label for="furparent-q5" class="que">Do you rent?</label>
+                    <div class="input-option">
+                        <div class="o_2a"><input type="radio" name="furparent-q5" id="yes2"> <label for="yes2">Yes</label></div>
+                        <div class="o_2a"><input type="radio" name="furparent-q5" id="no2"> <label for="no2">No</label></div>
+                    </div>
+
+                    <!-- 6 -->
+
+                    <label for="furparent-q6" class="que">Who do you live with?</label>
+                    <div class="input-checklist input-checklist-q6">
+                        <div class="input-checklist-q6-pt">
+                            <div class="o_2a"><input type="checkbox" name="6" id="lalone"> <label for="lalone">Living alone</label></div>
+                            <div class="o_2a"><input type="checkbox" name="6" id="spo"> <label for="spo">Spouse</label></div>
+                            <div class="o_2a"><input type="checkbox" name="6" id="parens"> <label for="parens">Parents</label></div>
+                        </div>
+                        <div class="input-checklist-q6-pt">
+                            <div class="o_2a"><input type="checkbox" name="6" id="cover"> <label for="cover">Children over 18</label></div>
+                            <div class="o_2a"><input type="checkbox" name="6" id="cbelow"> <label for="cbelow">Children below 18</label></div>
+                            <div class="o_2a"><input type="checkbox" name="6" id="relatives"> <label for="relatives">Relatives</label></div>
+                        </div>
+                        <div class="input-checklist-q6-pt">
+                            <div class="o_2a"><input type="checkbox" name="6" id="rooms"> <label for="rooms">Roommate(s)</label></div>
+                            <div class="o_2a"><input type="checkbox" name="6" id="other1"> <label for="other1">Other</label></div>
+                        </div>
+                    </div>
+
+                     <!-- 7 -->
+
+                    <label for="furparent-q7" class="que">Are any members of your household allergic to animals?</label>
+                    <div class="input-option">
+                        <div class="o_1"><input type="radio" name="7" id="yes3"> <label for="yes3">Yes</label></div>
+                        <div class="o_1"><input type="radio" name="7" id="no3"> <label for="no3">No</label></div>
+                    </div>
+
+                    <!-- 8 -->
+
+                    
+                    <label for="furparent-q8" class="que">Does everyone in the family support your decision to adopt a pet?</label>
+                    <div class="input-option">
+                        <div class="o_1"><input type="radio" name="8" id="yes4"> <label for="yes4">Yes</label></div>
+                        <div class="o_1"><input type="radio" name="8" id="no4"> <label for="no4">No</label></div>
+                    </div>
+                    <label for="furparent-q8" class="que">Please explain.</label>
+                    <div class="input-text">
+                        <textarea name="3" id="8" rows="4" style="width: 98%;"></textarea>
+                    </div>
+
+                    <!-- 9 -->
+
+                    
+                    <label for="furparent-q9" class="que">Do you have other pets?</label>
+                    <div class="input-option">
+                        <div class="o_1"><input type="radio" name="9" id="yes5"> <label for="yes5">Yes</label></div>
+                        <div class="o_1"><input type="radio" name="9" id="no5"> <label for="no5">No</label></div>
+                    </div>
+
+                    <!-- 10 -->
+
+                    <label for="furparent-q10" class="que">Have you had pets in the past?</label>
+                    <div class="input-option">
+                        <div class="o_1"><input type="radio" name="10" id="yes6"> <label for="yes6">Yes</label></div>
+                        <div class="o_1"><input type="radio" name="10" id="no6"> <label for="no6">No</label></div>
+                    </div>
+
+                    <!-- 11 -->
+
+                    <label for="furparent-q11" class="que">Will you be able to visit the shelter for the meet-and-greet?</label>
+                    <div class="input-option">
+                        <div class="o_1"><input type="radio" name="11" id="yes7"> <label for="yes7">Yes</label></div>
+                        <div class="o_1"><input type="radio" name="11" id="no7"> <label for="no7">No</label></div>
+                    </div>
+                </section>
+                <input type="submit" value="Submit" onclick="window.alert('Thank you! Your form has been submitted successfully. A confirmation message will be sent to your Gmail once validated.');" >
+            </form>
+
+        </div>
+    </section>
+
+
+
+
+    <script src="path/adoption-file.js"></script>
+
+    <footer>
+        <h4>CONTACT INFORMATION</h4>
+        <div class="footer-logo">
+            <img src="path/css-file/media/icon/horizontal-icon.png" alt="" onclick="window.location.href = 'index.html'">
+        </div>
+        <section class="footer-contact-info">
+            <div class="footer-contact">
+                <i class="fa-solid fa-location-dot"></i><p>Loyola Heights Quezon City, Philippines 1108</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fa-solid fa-phone"></i><p>(02) 926-1522</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fa-solid fa-envelope"></i><p>wander.pets@gmail.com</p>
+            </div>
+        </section>
+        <section class="footer-socials">
+            <div>
+                <span class="footer-icon">
+                    <a href="https://www.facebook.com/pawsphilippines/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/pawsphilippines/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/PAWSPhilippines" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.tiktok.com/@paws_ph" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@PAWSPhilippines1954" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </span>
+            </div>
+            <div class="copyright">
+                <i><p>&copy; 2025 Wander Pets - For Every Animal. All Rights Reserved. </p></i>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
